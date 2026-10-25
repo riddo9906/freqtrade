@@ -9,6 +9,17 @@ user_data/*
 !user_data/notebooks
 !user_data/models
 !user_data/freqaimodels
+
+# Small public market replay fixtures required by the Niblit desktop build.
+# All other user data, exchange configuration and trading state stay private.
+!user_data/data/
+user_data/data/*
+!user_data/data/binance/
+user_data/data/binance/*
+!user_data/data/binance/futures/
+user_data/data/binance/futures/*
+!user_data/data/binance/futures/BTC_USDT_USDT-1h-futures.feather
+!user_data/data/binance/futures/ETH_USDT_USDT-1h-futures.feather
 user_data/freqaimodels/*
 user_data/models/*
 user_data/notebooks/*
